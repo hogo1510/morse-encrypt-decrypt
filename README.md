@@ -11,7 +11,15 @@ Some extra functions i may or may not going to add-in:
 - more kind of encryptions
 This all depends on how much time i have left after school.
 
+how to use:
+```
+git clone https://github.com/hogo1510/morse-encrypt-decrypt
+python morse.py
+```
+it's pretty easy !
+
 be aware that i'm dutch, and thus the comments are maded in the dutch language.
 
-![image](https://github.com/hogo1510/morse-encrypt-decrypt/assets/55227884/d84ebf12-efb5-4650-b490-84838e28378f)
+![image](https://github.com/hogo1510/morse-encrypt-decrypt/assets/55227884/7b35afbf-ca82-4b63-9553-dde51811a89a)
+
 
