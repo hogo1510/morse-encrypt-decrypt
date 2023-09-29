@@ -14,6 +14,7 @@ This all depends on how much time i have left after school.
 how to use:
 ```
 git clone https://github.com/hogo1510/morse-encrypt-decrypt
+cd morse-encrypt-decrypt
 python morse.py
 ```
 it's pretty easy !
