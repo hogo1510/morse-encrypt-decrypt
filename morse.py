@@ -48,28 +48,28 @@ MorseCode = {
 NedCode = {v: k for k, v in MorseCode.items()} #Value en Key wordt om gedraaid in de dict
 
 def M2N(): #functie voor het decoderen van de morse code
-    inputM = input("Type hier de morse code in (er moeten spaties tussen de morse) : ")
+    inputM = input("Type here the morse code (there must be space's between the morse) : ")
     morse = inputM.split()
     for element in morse:
         print(NedCode[element])
 
 def N2M(): #functie voor het coderen van de tekst
-    inputN = input("Type hier de tekst in : ")
+    inputN = input("Type here your text : ")
     for tekst in inputN:
         for key in MorseCode:
             if key == tekst.lower():
                 print(MorseCode[key])
 
 def vraag():    
-    x = input("kies (m) voor morse naar nederlands of kies (n) voor nederlands naar morse: ")
+    x = input("choose (m) for morse to text or choose (t) for text to morse: ")
     if x == "m" :
         M2N()
-    elif x == "n":
+    elif x == "t":
         N2M()
     else:
-        print(x +" wordt niet herkend, kies opnieuw!")
+        print(x +" is not reconised, try again!")
         vraag()
 
 
-print("Welkom bij de Morse encoder en decoder")
+print("Welcome to the Morse encoder and decoder")
 vraag()
